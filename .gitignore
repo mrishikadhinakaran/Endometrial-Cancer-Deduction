@@ -1,0 +1,69 @@
+# Ignore Python virtual environments
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore log and temp files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore large ML/DL model files
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+*.pth
+*.pt
+*.pb
+*.joblib
+*.pkl
+
+# Ignore compiled libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore dataset and large image files
+*.svs
+*.tiff
+*.tif
+*.zip
+*.tar
+*.gz
+*.csv
+*.npy
+*.npz
+
+# Ignore cache and dependency files
+.cache/
+node_modules/
+*.egg-info/
+.conda/
+.conda/
+
+cat <<EOF > .gitignore
+# Ignore environment folders
+.conda/
+env/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore heavy data and model files
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.ckpt
+*.joblib
+*.csv
+*.npy
+*.npz
+
+# Ignore OS-specific and misc
+.DS_Store
+*.log
+EOF

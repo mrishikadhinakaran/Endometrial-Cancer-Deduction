@@ -1,0 +1,13 @@
+transformers
+torch
+python-dotenv
+gradio
+flask
+tensorflow
+numpy
+pillow
+python-dotenv
+tf-keras
+opencv-python
+torchvision
+
